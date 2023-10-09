@@ -1,5 +1,6 @@
 # Python-Projects
 This is a place for my python projects as I learn more about scripting and programming.
 
-<b>MadLib 1</b>
-  - [The Great Adventure] ()
+<h2>MadLibs:</h2>
+
+  - [The Great Adventure](https://github.com/MaLsR6053/Mad-Libs/blob/main/The%20Great%20Adventure.py)
