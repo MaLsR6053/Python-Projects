@@ -9,3 +9,4 @@ This is a place for my python projects as I learn more about scripting and progr
 
   - [TCP Client](https://github.com/MaLsR6053/Python-Projects/blob/main/Python%20TCP%20Client.py)
   - [UDP Client](https://github.com/MaLsR6053/Python-Projects/blob/main/Python%20UDP%20Client.py)
+  - [SQLi Password Brute Force](https://github.com/MaLsR6053/Python-Projects/blob/main/sqli_lab_password_brute.py)
