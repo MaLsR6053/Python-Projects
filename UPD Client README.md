@@ -1,7 +1,3 @@
-Here’s a sample README for your script:
-
----
-
 # UDP Client Script
 
 This script demonstrates how to create a simple UDP client using Python's `socket` module. It sends a small message to a specified target host and port, then listens for and prints the response.
@@ -42,6 +38,3 @@ target_port = 8080
 ## Disclaimer
 Use this script responsibly. Ensure you have proper authorization before sending packets to any network or server.
 
---- 
-
-Let me know if you'd like to add any specific details or improvements!
