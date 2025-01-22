@@ -1,4 +1,4 @@
-# UDP Client Script
+# [UDP Client Script](https://github.com/MaLsR6053/Python-Projects/blob/main/Python%20UDP%20Client.py)
 
 This script demonstrates how to create a simple UDP client using Python's `socket` module. It sends a small message to a specified target host and port, then listens for and prints the response.
 
