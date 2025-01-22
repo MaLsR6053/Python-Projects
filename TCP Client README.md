@@ -1,4 +1,4 @@
-# TCP Client Script
+# [TCP Client Script](https://github.com/MaLsR6053/Python-Projects/blob/main/Python%20TCP%20Client.py)
 
 This script demonstrates how to create a simple TCP client using Python's socket module. It connects to a specified target host and port, sends a basic HTTP GET request, and prints the server's response.
 
