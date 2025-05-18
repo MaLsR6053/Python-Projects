@@ -16,7 +16,7 @@ clear_previous_line()
 
 # Continue with your game...
 print("-" * 40)
-player2 = getpass.getpass("Player 2, what is your choice? ")
+player2 = pwinput.pwinput("Player 2, what is your choice? ", mask="*")
 time.sleep(0.75)
 clear_previous_line()
 
