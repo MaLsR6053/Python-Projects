@@ -1,14 +1,24 @@
-import getpass
+import pwinput
+import time
+import sys
 
-print("Hello! This is my first interactive game.")
-print(".....rock.....")
-print(".....paper.....")
-print(".....scissors.....")
+def clear_previous_line():
+    sys.stdout.write('\x1b[1A')  # Move cursor up
+    sys.stdout.write('\x1b[2K')  # Clear entire line
+    sys.stdout.flush()
 
-#player1 = input("Player 1, what is your choice? ")
-#player2 = input("Player 2, what is your choice? ")
-player1 = getpass.getpass("Player 1, what is your choice? ")
+# Player 1 enters input (asterisks show while typing)
+player1 = pwinput.pwinput("Player 1, what is your choice? ", mask="*")
+
+# Short delay, then erase the asterisk line
+time.sleep(0.75)
+clear_previous_line()
+
+# Continue with your game...
+print("-" * 40)
 player2 = getpass.getpass("Player 2, what is your choice? ")
+time.sleep(0.75)
+clear_previous_line()
 
 if player1 == "rock" and player2 == "scissors":
     print("Player 1 wins! Player 1 played rock and Player 2 played scissors.")
