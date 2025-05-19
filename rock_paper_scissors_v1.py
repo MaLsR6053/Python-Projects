@@ -2,6 +2,26 @@ import pwinput
 import time
 import sys
 
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+    _______
+---'   ____)____
+          ______)
+          _______)
+          _______)
+---.__________)
+    _______
+---'   ____)____
+          ______)
+        __________)
+      (____)
+---.__(___)
+
+
 def clear_previous_line():
     sys.stdout.write('\x1b[1A')  # Move cursor up
     sys.stdout.write('\x1b[2K')  # Clear entire line
