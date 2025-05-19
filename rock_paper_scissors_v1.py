@@ -2,6 +2,7 @@ import pwinput
 import time
 import sys
 
+ascii_art = r"""
     _______
 ---'   ____)
       (_____)
@@ -20,7 +21,8 @@ import sys
         __________)
       (____)
 ---.__(___)
-
+"""
+print(ascii_art)
 
 def clear_previous_line():
     sys.stdout.write('\x1b[1A')  # Move cursor up
