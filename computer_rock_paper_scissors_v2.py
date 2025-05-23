@@ -79,7 +79,7 @@ try:
 	elif player == "scissors" and computer == "scissors":
     		print("It's a tie! You both played scissors.")
 	else:
-        	print("One of you must have had a typo in your response. Let's try that again, dummy.")
+        	print("One of you must have had a typo in your response. Re-Run the program and then let's try that again, dummy.")
 
 except KeyboardInterrupt:
     print("\n[!] User interrupted. What...you don't want to play my game? :*(")
