@@ -1,4 +1,4 @@
-import pwinput
+#import pwinput
 import time
 import sys
 import random
@@ -40,22 +40,23 @@ try:
     		sys.stdout.flush()
 
 
-	print("Welcome to my rock, paper, scissors game where you are now playing against a computer opponent!\nv1.5")
+	print("Welcome to my rock, paper, scissors game where you are now playing against a computer opponent!\n\nv2.0\n")
 	time.sleep(1.5)
-	print("Please enter your choice, and then hit enter.")
+	print("\nPlease enter your choice, and then hit enter.")
 	time.sleep(1.5)
 #Player enters input (asterisks show while typing)
-	player = input("Player, what is your choice? ").lower()
+	player = input("\nPlayer, what is your choice? ").lower()
 
-rand_num = random.randint(0,2)
-if rand_num == 0:
-	computer = "rock"
-elif rand_num == 1:
-	computer = "paper"
-else:
-	computer = "scissors"
-print(f"Computer plays {computer}")
+	rand_num = random.randint(0,2)
 
+	if rand_num == 0:
+		computer = "rock"
+	elif rand_num == 1:
+		computer = "paper"
+	else:
+		computer = "scissors"
+	print(f"Computer plays {computer}")
+	time.sleep(1.5)
 
 
 #Super inefficient code
