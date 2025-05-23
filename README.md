@@ -4,6 +4,7 @@ This is a place for my Python projects as I learn more about scripting and progr
 ## Python Bootcamp:
   - [Bouncer](https://github.com/MaLsR6053/Python-Projects/blob/main/Bouncer_App.py) - Bouncer app that pretends to let you into a nightclub.
   - [Rock, Paper, Scissors v1.3](https://github.com/MaLsR6053/Python-Projects/blob/main/rock_paper_scissors_v1.3.py) - Rock, Paper, Scissors game with ascii art, and masked input to mitigate cheating.
+  - [Computer Opponent: Rock, Paper, Scissors](https://github.com/MaLsR6053/Python-Projects/blob/main/computer_rock_paper_scissors_v2.py) - Rock, Paper, Scissors version 2 of the game where your opponent is a Computer, instead of another human player.
 
     
 ## Other potentially useful scripts:
